@@ -1,9 +1,10 @@
 {
   "name": "travel-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "travel-site build",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,15 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "css-loader": "^6.2.0",
+    "postcss-loader": "^6.1.1",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^6.0.3",
+    "styles-loader": "^3.0.0",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
   }
 }
